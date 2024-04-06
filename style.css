@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_block h1{
+    border-bottom: 2px solid #000;
+    font-size: 70px;
+}
+.main_block h3{
+    font-size: 40px;
+}
+.task1{
+    margin: 0 auto;
+    max-width: 1350px;
+    
+}
+.rules_header{
+    padding: 10px;
+    background: rgb(124, 13, 13);
+    font-size: 24px;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: 300;
+}
+.rules_main{
+    font-size: 24px;
+    background: #eee;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 30px;
+    border-radius: 0px 0px 20px 20px;
+}
+.rebus{
+    display: none;
+}
+.rebus.active{
+    display: Block;
+}
+
+
+#winAction{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+}
+
+#winAction img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.progressBar {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+.progressBarBackground {
+    width: 300px;
+    height: 30px;
+    background: rgb(144, 18, 18);
+}
+#progBar {
+    width: 10px;
+    height: 30px;
+    background: rgb(70, 214, 30);
+}
